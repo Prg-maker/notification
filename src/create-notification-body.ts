@@ -8,8 +8,8 @@ import { IsNotEmpty, IsUUID, Length } from "class-validator";
   @IsNotEmpty()
   @Length(5 , 240)
   content:string;
-  
-  
+    
+
   @IsNotEmpty()
   category:string;
 
